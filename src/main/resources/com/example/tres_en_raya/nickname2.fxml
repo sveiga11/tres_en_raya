@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="275.0" prefWidth="478.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tres_en_raya.Controladores.Nickname2Controller">
+   <children>
+      <DialogPane contentText="Introduce el nombre del Jugador 1" layoutX="26.0" layoutY="36.0" prefHeight="42.0" prefWidth="348.0" />
+      <Button fx:id="cerrarNickname" layoutX="325.0" layoutY="227.0" mnemonicParsing="false" onAction="#closeNickname" text="Cerrar" />
+      <Button fx:id="aceptarNickname" layoutX="391.0" layoutY="227.0" mnemonicParsing="false" onAction="#acceptNickname" text="Aceptar" />
+      <TextField layoutX="33.0" layoutY="78.0" prefHeight="26.0" prefWidth="334.0" />
+      <DialogPane contentText="Introduce el nombre del Jugador 2" layoutX="26.0" layoutY="124.0" prefHeight="42.0" prefWidth="348.0" />
+      <TextField layoutX="33.0" layoutY="166.0" prefHeight="26.0" prefWidth="334.0" />
+   </children>
+</AnchorPane>

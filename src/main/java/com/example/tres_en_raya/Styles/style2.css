@@ -1,0 +1,23 @@
+#titulo {
+         -fx-font-style: italic;
+         -fx-font-size: 15px;
+         -fx-text-fill: #FFFFFF;
+}
+
+#fondo { -fx-background-color: #F90000; }
+
+Button { -fx-background-color: #E6FD74;
+         -fx-border-color: #FFFFFF;
+         -fx-border-width: 2;
+         -fx-text-fill: #FF3399;
+         -fx-font-family: "Georgia";
+         -fx-font-style: italic;
+         -fx-font-size: 15px;
+}
+
+#autor {
+         -fx-text-fill: #660099;
+         -fx-font-size: 12px;
+}
+
+Button:hover { -fx-background-color: #333333;}
